@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[TRACE NICK3]]></title>
-  <link href="http://blog.nick3.tk/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | TRACE NICK3]]></title>
+  <link href="http://blog.nick3.tk/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://blog.nick3.tk/"/>
   <updated>2012-01-26T00:52:39+08:00</updated>
   <id>http://blog.nick3.tk/</id>
@@ -31,15 +31,6 @@
 <p>文章讲得比较清楚，而且Octopress的样式都是采用scss编写的，所以修改起来也很简单。大致的改了下，然后随便做了个Logo加上去了。还行～。以后就抽空再继续改改吧。</p>
 
 <p>顺便吐槽一下某些领导，大过年的居然还要开会，寂寞难耐么……哎，明天要“早”起了。还是去睡吧。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello world]]></title>
-    <link href="http://blog.nick3.tk/blog/2012/01/25/hello-world/"/>
-    <updated>2012-01-25T18:11:00+08:00</updated>
-    <id>http://blog.nick3.tk/blog/2012/01/25/hello-world</id>
-    <content type="html"><![CDATA[<p>好不容易终于把Octopress给部署好了。真的是折腾了半天啊！</p>
 ]]></content>
   </entry>
   
