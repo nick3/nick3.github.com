@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[TRACE ON NICK3]]></title>
-  <link href="http://nick3.github.com/atom.xml" rel="self"/>
-  <link href="http://nick3.github.com/"/>
-  <updated>2012-01-25T18:22:19+08:00</updated>
-  <id>http://nick3.github.com/</id>
+  <title><![CDATA[TRACE NICK3]]></title>
+  <link href="http://blog.nick3.tk/atom.xml" rel="self"/>
+  <link href="http://blog.nick3.tk/"/>
+  <updated>2012-01-26T00:19:58+08:00</updated>
+  <id>http://blog.nick3.tk/</id>
   <author>
     <name><![CDATA[Nick3]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello world]]></title>
-    <link href="http://nick3.github.com/blog/2012/01/25/hello-world/"/>
+    <link href="http://blog.nick3.tk/blog/2012/01/25/hello-world/"/>
     <updated>2012-01-25T18:11:00+08:00</updated>
-    <id>http://nick3.github.com/blog/2012/01/25/hello-world</id>
+    <id>http://blog.nick3.tk/blog/2012/01/25/hello-world</id>
     <content type="html"><![CDATA[<p>好不容易终于把Octopress给部署好了。真的是折腾了半天啊！</p>
 ]]></content>
   </entry>

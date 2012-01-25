@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://nick3.github.com/blog/2012/01/25/hello-world/</loc>
-        <lastmod>2012-01-25T18:20:27+08:00</lastmod>
+        <loc>http://blog.nick3.tk/blog/2012/01/25/hello-world/</loc>
+        <lastmod>2012-01-25T23:31:22+08:00</lastmod>
     </url>
     <url>
-        <loc>http://nick3.github.com/blog/archives/</loc>
-        <lastmod>2012-01-25T18:20:27+08:00</lastmod>
+        <loc>http://blog.nick3.tk/blog/archives/</loc>
+        <lastmod>2012-01-25T23:31:22+08:00</lastmod>
     </url>
     <url>
-        <loc>http://nick3.github.com/</loc>
-        <lastmod>2012-01-25T18:20:27+08:00</lastmod>
+        <loc>http://blog.nick3.tk/</loc>
+        <lastmod>2012-01-25T23:31:22+08:00</lastmod>
     </url>
 </urlset>
