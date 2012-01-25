@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[TRACE ON NICK3]]></title>
+  <link href="http://nick3.github.com/atom.xml" rel="self"/>
+  <link href="http://nick3.github.com/"/>
+  <updated>2012-01-25T18:00:21+08:00</updated>
+  <id>http://nick3.github.com/</id>
+  <author>
+    <name><![CDATA[Nick3]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
