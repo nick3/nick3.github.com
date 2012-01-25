@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://nick3.github.com
-title: TRACE ON NICK3
+url: http://blog.nick3.tk
+title: TRACE NICK3
 subtitle: Nick3的一些存档
 author: Nick3
 simple_search: http://google.com/search
@@ -78,7 +78,7 @@ google_plus_one_size: medium
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
 googleplus_user: nickcliu@gmail.com
-googleplus_hidden: false
+googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
@@ -96,4 +96,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: true
+facebook_like: false

@@ -1,2 +1,199 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+.clearfix {
+	@include pie-clearfix;
+}
+
+body {
+	> .background {
+		background: url('https://s3-us-west-1.amazonaws.com/images.path.com/photos2/5b3ac419-821c-4354-b9e2-c4b0d31426ce/web.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	> header {
+		position: relative;
+		z-index: 0;
+		background: transparent;
+		padding: 0;
+		margin: 0;
+
+		> .logo {
+			@include float-left;
+			padding: 15px 5px 25px 25px;
+			> img {
+				width: 48px;
+				height: 56px;
+			}
+		}
+		> hgroup {
+			padding: 15px 5px;
+			@include float-left;
+			margin: 0;
+
+			h1 {
+				line-height: 22px;
+				a {
+					font-family: "华文黑体", "华文细黑", "微软雅黑";
+					font-size: 30px;
+					padding: 0;
+					color: rgba(255,255,255,0.8);
+					font-weight: bold;
+					@include text-shadow(0 1px 2px rgba(0,0,0,0.5));
+					@include transition(color 0.5s);
+
+					&:hover {
+						color: #fff;
+					}
+				}
+			}
+			h2 {
+				font-family: "华文黑体", "华文细黑", "微软雅黑";
+				font-size: 16px;
+				@include text-shadow(0 1px 2px rgba(0,0,0,0.5));
+				font-family: Arial;
+				color: rgba(255,255,255,0.5);
+				text-indent: 6px;
+			}
+		}
+		> nav {
+			@include float-right;
+			background: none;
+			border: none !important;
+			padding: 0;
+
+			a {
+				color: #6B6B6B;
+				text-shadow: #EBEBEB 0 1px;
+				float: left;
+				text-decoration: none;
+				font-size: 1.1em;
+				padding: .1em 0;
+				line-height: 1.5em;
+			}
+
+			> form {
+				float: none;
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 10px 25px 0 0;
+				text-align: right;
+
+				fieldset.mobile-nav {
+					display: none;
+				}
+
+				.search {
+					color: #aaa;
+					font-size: 16px;
+					line-height: 20px;
+					padding: 2px 8px 0;
+					text-align: left;
+					@include border-radius(50px);
+					background: rgba(0,0,0,0.5);
+					border: 1px solid rgba(0,0,0,0.7);
+					@include box-shadow(inset 0 1px 2px rgba(0,0,0,0.5), 0 1px 0 rgba(255,255,255,0.3));
+					@include opacity(0.6);
+					width: 60%;
+					@include transition(all 0.5s);
+
+					&:focus {
+						color: #444;
+						outline: none;
+						background: rgba(255,255,255,0.9);
+						border: 1px solid rgba(0,0,0,0.5);
+						@include box-shadow(inset 0 1px 2px rgba(0,0,0,0.5), 0 1px 0 rgba(255,255,255,0.5));
+						@include opacity(1);
+						width: 90%;
+					}
+				}
+			}
+
+			> ul.subscription {
+				display: none !important;
+				@include float-right;
+				@include horizontal-list;
+
+				 li {
+				 	border: none;
+				 	padding: 0;
+
+				 	a {
+				 		border: none
+				 	}
+				 }
+			}
+
+			> .main-navigation {
+				position: absolute;
+				bottom: 0;
+				right: 20px;
+				@include horizontal-list;
+				padding: 0 5px;
+				
+				li {
+					padding: 5px 4px 0 4px;
+					a {
+						color: #f3f3f3;
+						background: rgba(255,255,255,0.2);
+						@include border-radius(5px 5px 0 0);
+				 		padding: 2px 16px;
+				 		font-size: 0.9em;
+						@include text-shadow(0 1px 1px rgba(0,0,0,0.5));
+						@include box-shadow(inset 0 1px 1px rgba(255,255,255,0.3), 0 0px 5px rgba(0,0,0,0.5));
+						font-family: "华文黑体", "华文细黑", "微软雅黑";
+						@include transition(all 0.5s);
+
+						&:hover {
+							background: rgba(255,255,255,0.9);
+							color: #08c;
+							@include text-shadow(0 1px 1px rgba(0,0,0,0.3));
+							@include box-shadow(inset 0 1px 1px rgba(255,255,255,1), 0 0px 5px rgba(0,0,0,0.7));
+						}
+					}
+					+ li {
+						border: none;
+						a {
+							border: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	> #main {
+		position: relative;
+		z-index: 10;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		@include box-shadow(0 0 8px rgba(0,0,0,0.8));
+		@include border-radius;
+		background: rgba(255,255,255,0.9);
+
+		#content {
+			.toggle-sidebar {
+				@include box-shadow(inset 2px 0 1px rgba(0,0,0,0.3));
+			}
+		}
+	}
+
+	> footer {
+		background: none;
+		border: none;
+		color: rgba(255,255,255,0.9);
+		@include text-shadow(0 0px 5px rgba(0,0,0,1));
+		
+		a {
+			font-family: "Arial Narrow";
+			text-transform: uppercase;
+			font-weight: normal;
+			color: #fff !important;
+		}
+	}
+}
