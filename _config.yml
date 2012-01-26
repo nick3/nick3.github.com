@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://blog.nick3.tk
+url: http://nick3.tk
 title: TRACE NICK3
 subtitle: Nick3的一些存档
 author: Nick3
 simple_search: http://google.com/search
-description:
+description: 技术 + 吐槽
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
