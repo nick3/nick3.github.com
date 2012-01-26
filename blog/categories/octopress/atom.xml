@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | TRACE NICK3]]></title>
   <link href="http://blog.nick3.tk/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://blog.nick3.tk/"/>
-  <updated>2012-01-26T16:49:19+08:00</updated>
+  <updated>2012-01-26T16:56:16+08:00</updated>
   <id>http://blog.nick3.tk/</id>
   <author>
     <name><![CDATA[Nick3]]></name>
@@ -130,7 +130,7 @@ git commit -m '写点提交注释'
 git push origin source
 </code></p>
 
-<p>搞定，收工！(<sup>_<sup>)y</sup></sup></p>
+<p>搞定，收工！</p>
 ]]></content>
   </entry>
   
