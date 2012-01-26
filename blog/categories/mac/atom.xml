@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mac | TRACE NICK3]]></title>
-  <link href="http://blog.nick3.tk/blog/categories/mac/atom.xml" rel="self"/>
-  <link href="http://blog.nick3.tk/"/>
-  <updated>2012-01-26T16:56:16+08:00</updated>
-  <id>http://blog.nick3.tk/</id>
+  <link href="http://nick3.tk/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://nick3.tk/"/>
+  <updated>2012-01-26T17:00:39+08:00</updated>
+  <id>http://nick3.tk/</id>
   <author>
     <name><![CDATA[Nick3]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mac在GitHub上搭建Octopress的过程记录]]></title>
-    <link href="http://blog.nick3.tk/blog/2012/01/26/maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu/"/>
+    <link href="http://nick3.tk/blog/2012/01/26/maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu/"/>
     <updated>2012-01-26T14:54:00+08:00</updated>
-    <id>http://blog.nick3.tk/blog/2012/01/26/maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu</id>
+    <id>http://nick3.tk/blog/2012/01/26/maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu</id>
     <content type="html"><![CDATA[<p>网上同类文章很多了，我只是把自己的搭建过程记录一下。</p>
 
 <p>早先我也曾经尝试搭过一次，但是遇到了一些问题，安装ruby1.9.2，在编译的时候老是报错。和我本机装的是Xcode 4.2可能有关系。在网上查了一下解决方案，说是可以通过下面的命令来安装ruby 1.9.3来代替：
