@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>测试一下发图片 - TRACE NICK3</title>
+  <title>My instagram - TRACE NICK3</title>
   <meta name="author" content="Nick3">
 
   
-  <meta name="description" content="测试一下发图片。 SAE: amazon cloud drive: ">
+  <meta name="description" content="My Instagram Jan 26th, 2012 <?php
+include("./instagram.php");
+?> Jan 26th, 2012 Tweet Comments Please enable JavaScript to view the comments powered &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://nick3.tk/blog/2012/01/26/ce-shi-%5B%3F%5D-xia-fa-tu-pian">
+  <link rel="canonical" href="http://nick3.tk/photos/index.php">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -89,15 +91,33 @@
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      <h1 class="entry-title">测试一下发图片</h1>
-    
-    
+    <h1 class="entry-title">My Instagram</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-26T23:10:00+08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2012</time></p>
+  </header>
+  
+  <?php
+include("./instagram.php");
+?>
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -109,53 +129,13 @@
   
 
 
-<time datetime="2012-01-26T14:13:00+08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2012</time>
+<time datetime="2012-01-26T23:10:00+08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2012</time>
         
       </p>
-    
-  </header>
-
-
-<div class="entry-content"><p>测试一下发图片。</p>
-
-<h3>SAE:</h3>
-
-<p><img src="http://nick3-wordpress.stor.sinaapp.com/uploads/2012/01/web.jpg" alt="汉街测试图片" /></p>
-
-<h3>amazon cloud drive:</h3>
-
-<p><img src="https://www.amazon.com/clouddrive?downloadById=51505b05-daf7-4b57-9a79-0cbac19222af&amp;attachment=0" alt="汉街测试图片(Amazon)" /></p>
-</div>
-
-
-  <footer>
-    <p class="meta">
       
+        <div class="sharing">
   
-
-<span class="byline author vcard">Posted by <span class="fn">Nick3</span></span>
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-01-26T14:13:00+08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2012</time>
-      
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://nick3.tk/blog/2012/01/26/ce-shi-%5B%3F%5D-xia-fa-tu-pian/" data-via="nickcliu" data-counturl="http://nick3.tk/blog/2012/01/26/ce-shi-%5B%3F%5D-xia-fa-tu-pian/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://nick3.tk/photos/index.php" data-via="nickcliu" data-counturl="http://nick3.tk/photos/index.php" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -163,16 +143,9 @@
   
 </div>
 
-    
-    <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/01/26/kai-shi-zhao-shou-xiu-gai-octopressde-zhu-ti-yang-shi/" title="Previous Post: 开始着手修改Octopress的主题样式">&laquo; 开始着手修改Octopress的主题样式</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2012/01/26/maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu/" title="next Post: Mac在GitHub上搭建Octopress的过程记录">Mac在GitHub上搭建Octopress的过程记录 &raquo;</a>
-      
-    </p>
-  </footer>
+    </footer>
+  
 </article>
 
   <section>
@@ -269,8 +242,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://nick3.tk/blog/2012/01/26/ce-shi-%5B%3F%5D-xia-fa-tu-pian/';
-        var disqus_url = 'http://nick3.tk/blog/2012/01/26/ce-shi-%5B%3F%5D-xia-fa-tu-pian/';
+        var disqus_identifier = 'http://nick3.tk/photos/index.php';
+        var disqus_url = 'http://nick3.tk/photos/index.php';
         var disqus_script = 'embed.js';
       
     (function () {
