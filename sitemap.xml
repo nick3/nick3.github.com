@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://nick3.tk/blog/2012/01/25/hello-world/</loc>
+        <loc>http://blog.nick3.tk/blog/2012/01/25/hello-world/</loc>
         <lastmod>2012-01-25T23:31:22+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://nick3.tk/blog/2012/01/26/kai-shi-zhao-shou-xiu-gai-octopressde-zhu-ti-yang-shi/
+            http://blog.nick3.tk/blog/2012/01/26/kai-shi-zhao-shou-xiu-gai-octopressde-zhu-ti-yang-shi/
         </loc>
         <lastmod>2012-01-26T00:52:01+08:00</lastmod>
     </url>
     <url>
-        <loc>http://nick3.tk/blog/2012/01/26/ce-shi-%5B%3F%5D-xia-fa-tu-pian/</loc>
+        <loc>http://blog.nick3.tk/blog/2012/01/26/ce-shi-%5B%3F%5D-xia-fa-tu-pian/</loc>
         <lastmod>2012-01-26T14:43:18+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://nick3.tk/blog/2012/01/26/maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu/
+            http://blog.nick3.tk/blog/2012/01/26/maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu/
         </loc>
         <lastmod>2012-01-26T16:56:16+08:00</lastmod>
     </url>
     <url>
-        <loc>http://nick3.tk/blog/archives/</loc>
+        <loc>http://blog.nick3.tk/blog/archives/</loc>
         <lastmod>2012-01-26T16:56:16+08:00</lastmod>
     </url>
     <url>
-        <loc>http://nick3.tk/</loc>
+        <loc>http://blog.nick3.tk/</loc>
         <lastmod>2012-01-26T16:56:16+08:00</lastmod>
     </url>
 </urlset>
