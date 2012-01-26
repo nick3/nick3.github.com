@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Octopress | TRACE NICK3]]></title>
-  <link href="http://blog.nick3.tk/blog/categories/octopress/atom.xml" rel="self"/>
+  <title><![CDATA[Category: GitHub | TRACE NICK3]]></title>
+  <link href="http://blog.nick3.tk/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://blog.nick3.tk/"/>
   <updated>2012-01-26T16:49:19+08:00</updated>
   <id>http://blog.nick3.tk/</id>
@@ -131,27 +131,6 @@ git push origin source
 </code></p>
 
 <p>搞定，收工！(<sup>_<sup>)y</sup></sup></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[开始着手修改Octopress的主题样式]]></title>
-    <link href="http://blog.nick3.tk/blog/2012/01/26/kai-shi-zhao-shou-xiu-gai-octopressde-zhu-ti-yang-shi/"/>
-    <updated>2012-01-26T00:34:00+08:00</updated>
-    <id>http://blog.nick3.tk/blog/2012/01/26/kai-shi-zhao-shou-xiu-gai-octopressde-zhu-ti-yang-shi</id>
-    <content type="html"><![CDATA[<p>刚把Octopress在GitHub上面搭好，但是样式怎么看都觉得太大众了（主要是先前看了几个别人搭的Octopress，感觉样式都是差不多的）。所以决定开始改改他的样式。</p>
-
-<p>在网上看了一下相关的文章，貌似就官方的那篇文档：</p>
-
-<p><a href="http://octopress.org/docs/theme/">Theming &amp; Customization</a></p>
-
-<p>当然还有其中文翻译版（辛苦这位前辈了）：</p>
-
-<p><a href="http://chen.yanping.me/cn/blog/2012/01/07/theming-and-customization/">为Octopress修改主题和自定义样式</a></p>
-
-<p>文章讲得比较清楚，而且Octopress的样式都是采用scss编写的，所以修改起来也很简单。大致的改了下，然后随便做了个Logo加上去了。还行～。以后就抽空再继续改改吧。</p>
-
-<p>顺便吐槽一下某些领导，大过年的居然还要开会，寂寞难耐么……哎，明天要“早”起了。还是去睡吧。</p>
 ]]></content>
   </entry>
   
