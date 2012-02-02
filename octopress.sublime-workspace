@@ -1,0 +1,237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flo",
+				"float-left"
+			],
+			[
+				"A",
+				"Arial"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"a",
+				"absolute	(a)"
+			],
+			[
+				"z",
+				"z-index: ${1001:$SELECTION};"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"i",
+				"italic	(i)"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"line",
+				"line-height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 94.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Nick/GitSpace/ruby/hello.rb",
+		"/Users/Nick/GitSpace/ruby/cracksb2.rb",
+		"/Applications/Sublime Text 2.app/Contents/MacOS/Pristine Packages/Ruby.sublime-package",
+		"/Users/Nick/GitSpace/octopress/sass/custom/_styles.scss",
+		"/Users/Nick/GitSpace/octopress/source/_includes/custom/footer.html",
+		"/Users/Nick/GitSpace/octopress/source/_includes/custom/head.html",
+		"/Users/Nick/GitSpace/octopress/source/_includes/custom/navigation.html",
+		"/Users/Nick/GitSpace/octopress/source/photos/instagram.php",
+		"/Users/Nick/GitSpace/octopress/source/about/index.markdown",
+		"/Users/Nick/GitSpace/octopress/source/_layouts/post.html",
+		"/Users/Nick/GitSpace/octopress/source/photos/index.php",
+		"/Users/Nick/GitSpace/octopress/source/photos/index.markdown",
+		"/Users/Nick/GitSpace/octopress/sass/custom/_colors.scss",
+		"/Users/Nick/GitSpace/octopress/sass/base/_layout.scss",
+		"/Users/Nick/GitSpace/octopress/source/_layouts/default.html",
+		"/Users/Nick/GitSpace/octopress/source/_includes/custom/header.html",
+		"/Users/Nick/GitSpace/octopress/source/_includes/navigation.html",
+		"/Users/Nick/GitSpace/octopress/source/_includes/custom/asides/sinaweibo.html",
+		"/Users/Nick/GitSpace/octopress/_config.yml",
+		"/Users/Nick/GitSpace/octopress/source/_includes/after_footer.html",
+		"/Users/Nick/GitSpace/octopress/source/_posts/2012-01-26-maczai-githubshang-da-jian-octopressde-guo-cheng-ji-lu.markdown",
+		"/Users/Nick/GitSpace/octopress/source/_includes/custom/asides/about.html",
+		"/Users/Nick/GitSpace/octopress/source/CNAME",
+		"/Users/Nick/GitSpace/octopress/source/_posts/2012-01-26-kai-shi-zhao-shou-xiu-gai-octopressde-zhu-ti-yang-shi.markdown",
+		"/Users/Nick/GitSpace/octopress/source/_includes/footer.html",
+		"/Users/Nick/GitSpace/octopress/source/_includes/custom/after_footer.html",
+		"/Users/Nick/GitSpace/octopress/source/_includes/head.html",
+		"/Users/Nick/GitSpace/octopress/source/favicon.png",
+		"/Users/Nick/GitSpace/octopress/Rakefile",
+		"/Users/Nick/GitSpace/octopress/config.rb",
+		"/Users/Nick/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Github"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"GitHub"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true
+}

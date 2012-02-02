@@ -25,22 +25,22 @@ body {
 
 		> .logo {
 			@include float-left;
-			padding: 15px 0px 25px 25px;
+			padding: 25px 0px 25px 25px;
 			> img {
 				width: 48px;
 				height: 56px;
 			}
 		}
 		> hgroup {
-			padding: 15px 5px;
+			padding: 25px 5px 0 5px;
 			@include float-left;
 			margin: 0;
 
 			h1 {
 				line-height: 22px;
 				a {
-					font-family: "华文黑体", "华文细黑", "微软雅黑";
-					font-size: 30px;
+					font-family: 'Jura', cursive;
+					font-size: 40px;
 					padding: 0;
 					color: rgba(255,255,255,0.8);
 					font-weight: bold;
@@ -53,7 +53,7 @@ body {
 				}
 			}
 			h2 {
-				font-family: "华文黑体", "华文细黑", "微软雅黑";
+				font-family: 'Maven Pro', sans-serif;
 				font-size: 16px;
 				@include text-shadow(0 1px 2px rgba(0,0,0,0.5));
 				font-family: Arial;
@@ -82,7 +82,7 @@ body {
 				position: absolute;
 				top: 0;
 				right: 0;
-				padding: 10px 25px 0 0;
+				padding: 10px 56px 0 0;
 				text-align: right;
 
 				fieldset.mobile-nav {
@@ -101,7 +101,7 @@ body {
 					@include box-shadow(inset 0 1px 2px rgba(0,0,0,0.5), 0 1px 0 rgba(255,255,255,0.3));
 					@include opacity(0.6);
 					width: 60%;
-					@include transition(all 0.5s);
+					@include transition(all 0.3s);
 
 					&:focus {
 						color: #444;
@@ -116,9 +116,12 @@ body {
 			}
 
 			> ul.subscription {
-				display: none !important;
-				@include float-right;
+				//display: none !important;
+				
+				position: absolute;
+				right: 0;
 				@include horizontal-list;
+				padding: 12px 25px 0 0;
 
 				 li {
 				 	border: none;
@@ -147,8 +150,8 @@ body {
 				 		font-size: 0.9em;
 						@include text-shadow(0 1px 1px rgba(0,0,0,0.5));
 						@include box-shadow(inset 0 1px 1px rgba(255,255,255,0.3), 0 0px 5px rgba(0,0,0,0.5));
-						font-family: "华文黑体", "华文细黑", "微软雅黑";
-						@include transition(all 0.5s);
+						font-family: 'Maven Pro', sans-serif;
+						@include transition(all 0.3s);
 
 						&:hover {
 							background: rgba(255,255,255,0.9);
@@ -173,7 +176,7 @@ body {
 		z-index: 10;
 		border: 1px solid rgba(255, 255, 255, 0.3);
 		@include box-shadow(0 0 8px rgba(0,0,0,0.8));
-		@include border-radius;
+		@include border-radius(5px 5px 0 0);
 		background: rgba(255,255,255,0.9);
 
 		#content {
@@ -184,16 +187,42 @@ body {
 	}
 
 	> footer {
-		background: none;
+		background: rgba(255,255,255,0.33);
 		border: none;
-		color: rgba(255,255,255,0.9);
-		@include text-shadow(0 0px 5px rgba(0,0,0,1));
-		
-		a {
-			font-family: "Arial Narrow";
-			text-transform: uppercase;
-			font-weight: normal;
-			color: #fff !important;
+		color: #333;
+		@include border-radius(0 0 5px 5px);
+		@include text-shadow(0 1px 0px rgba(255,255,255,0.3));
+		@include box-shadow(0 0px 8px rgba(0,0,0,0.8));
+		position: relative;
+		p {
+			font-family: 'Maven Pro', sans-serif;
+			margin-bottom: 0;
+			&.right {
+				position: absolute;
+				bottom: 1em;
+				right: 55px;
+			}
+			a {
+				font-family: 'Jura', cursive;
+				text-transform: uppercase;
+				font-weight: normal;
+				color: #000 !important;
+				@include text-shadow(0 0 8px rgba(255,255,255,1));
+				text-decoration: none;
+				@include transition(color 0.3s);
+
+				&:hover {
+					color: #08c !important;
+				}
+
+				img {
+					@include opacity(0.7);
+					@include transition(opacity 0.3s);
+					&:hover {
+						@include opacity(1);
+					}
+				}
+			}
 		}
 	}
 }
